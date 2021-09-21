@@ -23,7 +23,8 @@ composer install
 ## Dernière ligne droite
 
 ```
-cp .env.example .env
+cp .env.example .env (pour Linux)
+copy .env.example .env (pour Windows)
 php artisan key:generate
 ```
 
