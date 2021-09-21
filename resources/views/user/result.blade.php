@@ -12,7 +12,17 @@
             <p>valeur : <b>{{ $user['gender'] }}</b></p>
 
             <h3>Newsletter</h3>
-            <p>valeur : <b>{{ $user['newsletter'] }}</b></p>
+            <p>valeur : <b>
+            {{-- {{ --}}
+
+                @if($user['newsletter'])
+                    yes
+                @else 
+                    no
+                @endif
+             
+        {{-- }} --}}
+    </b></p>
 
             <h3>Mood</h3>
             <p>valeur : <b>{{ $user['mood'] }}</b></p>
