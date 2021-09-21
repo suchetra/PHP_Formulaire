@@ -15,7 +15,7 @@
             <p>valeur : <b>{{ $user['newsletter'] }}</b></p>
 
             <h3>Mood</h3>
-            <p>valeur : <b><!-- A Completer --></b></p>
+            <p>valeur : <b>{{ $user['mood'] }}</b></p>
         </div>
     </div>
 

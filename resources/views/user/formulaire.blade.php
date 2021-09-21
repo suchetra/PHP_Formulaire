@@ -13,6 +13,10 @@
                     <input type="text" class="form-control" name="firstname" placeholder="firstname">
                 </div>
                 <div class="form-group">
+                    <label for="lastname">lastname</label>
+                    <input type="text" class="form-control" name="lastname" placeholder="lastname">
+                </div>
+                <div class="form-group">
                     <label for="gender">Gender</label>
                     <select name="gender" class="form-control">
                         <option value="men">men</option>
@@ -27,6 +31,7 @@
                     </div>
                 </div>
                 <div class="form-group">
+                    <p>Mood</p>
                     <div class="radio">
                       <label>
                         <input type="radio" name="mood" value="happy" checked>
